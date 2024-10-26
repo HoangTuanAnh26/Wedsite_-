@@ -331,10 +331,8 @@
 }
 
 .auth-form__socials {
-    background-color: yellow;
-    /* background-color: #f5f5f5; */
+    background-color: var(--border-color);
     padding: 12px 36px;
-    /* padding: 12px 0; */
     display:flex;
     justify-content: space-between;
     margin-top: 25px;
