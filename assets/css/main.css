@@ -46,7 +46,7 @@
 
 .header__navbar-user-menu {
     position: absolute;
-    z-index: 1;
+    z-index: 1;/* Làm phần header__navbar-user-menu hiện ra trên ảnh giở hàng */
     top: calc(100% + 2px);
     padding-left: 0;
     right: 0;
@@ -115,6 +115,7 @@
 .header__navbar-item--has-notify:hover .header__notify {
     display: block;
 }
+
 .header__navbar-item,
 .header__navbar-item-link {
     display: inline-block;
@@ -188,7 +189,7 @@
     animation: fadeIn ease-in 0,2s;
 }
 
-.header__pr::before {
+.header__pr::before { /* Cái này để làm gì quên rùi */
     position: absolute;
     left: 0;
     top: -18px;
@@ -237,7 +238,7 @@
     display: none;
 }
 
-.header__notify::before {
+.header__notify::before {    /* Tạo phần khối nhọn nhô lên */
     content: "";
     border-width:20px 26px;    /* Làm phần nhọn lên tù lại */
     border-style: solid;
@@ -247,7 +248,7 @@
     top: -28px;
 }
 
-.header__notify::after {
+.header__notify::after { /* Dựng cầu nối */
     content: "";
     display: block;
     position: absolute;
@@ -257,7 +258,7 @@
     height: 19px;
 }
 
-@keyframes headerNotifyGrowth {
+@keyframes headerNotifyGrowth {/* Tạo ra hiệu ứng tăng kích thước và dần xuất hiện cho một phần tử */
     from {
         opacity: 0;
         transform: scale(0);
