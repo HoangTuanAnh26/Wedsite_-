@@ -18,7 +18,7 @@
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-pr header__navbar-item--separate">
-                            美しい猿王の山の中に
+                            美しい猿の花果山の山の中に
 
                             <!-- Header QR Code -->
                             <div class="header__pr">
@@ -119,6 +119,74 @@
                 </nav>
 
                 <!-- Header with search -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <img src="assets/img/monkey.svg" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="入力して検索します">
+
+                            <!-- Search history -->
+                             <div class="header__search-history">
+                                <h3 class="header__search-history-heading">検索履歴</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">トルコのデントコーン</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">もぎたてのサパのピーチ</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">世界で一番おいしいオーシャンのハイズオンのグアバ</a>
+                                    </li>
+                                </ul>
+                             </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">同メーカー</span>
+                            <i class="header__search-select-icon fa-solid fa-caret-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>同メーカー</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>別メーカー</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-notice">3</span>
+                            
+                            <!-- No cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list--no-cart-msg">
+                                    商品がありません
+                                </span>
+                                <h4 class="header__cart-heading">追加された商品</h4>
+                                <ul class="header__cart-list-item">
+
+                                </ul>
+                                <a href="" class="header__cart-view-cart btn btn--primary">カートを見る</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
     
