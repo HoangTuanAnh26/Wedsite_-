@@ -18,7 +18,7 @@
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-pr header__navbar-item--separate">
-                            美しい猿の花果山の山の中に
+                            美しい猿の花果山の中に
 
                             <!-- Header QR Code -->
                             <div class="header__pr">
@@ -175,17 +175,180 @@
                             <!-- No cart: header__cart-list--no-cart -->
                             <div class="header__cart-list">
                                 <img src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
-                                <span class="header__cart-list--no-cart-msg">
+                                <span class="header__cart-list-no-cart-msg">
                                     商品がありません
                                 </span>
                                 <h4 class="header__cart-heading">追加された商品</h4>
                                 <ul class="header__cart-list-item">
-
+                                    <!-- Cart item -->
+                                     <li class="header__cart-item">
+                                         <img src="assets/img/sau rieng.jpg" alt="" class="header__cart-img">
+                                         <div class="header__cart-item-info">
+                                             <div class="header__cart-item-head">
+                                                 <h5 class="header__cart-item-name">サイゴンドリアン</h5>
+                                                 <div class="header__cart-item-price-wrap">
+                                                     <span class="header__cart-item-price">150円</span>
+                                                     <span class="header__cart-item-multiply">x</span>
+                                                     <span class="header__cart-item-qnt">2</span>
+                                                 </div>
+                                             </div>
+                                             <span class="header__cart-item-body">
+                                                 <span class="header__cart-item-description">
+                                                    メーカー：ベトナム
+                                                 </span>
+                                                 <span class="header__cart-item-remove">削除</span>
+                                             </span>
+                                         </div>
+                                     </li>
+                                     <li class="header__cart-item">
+                                        <img src="assets/img/xoai.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">マンゴーフルーツ5個セット </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">90円</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    メーカー：ベトナム
+                                                </span>
+                                                <span class="header__cart-item-remove">削除</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="assets/img/tao.jpg"class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">中国リンゴ</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">8円</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">9</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    メーカー：中国
+                                                </span>
+                                                <span class="header__cart-item-remove">削除</span>
+                                            </div>
+                                        </div>
+                                    </li>
                                 </ul>
                                 <a href="" class="header__cart-view-cart btn btn--primary">カートを見る</a>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <!-- Modal layout -->
+            <!-- <div class="modal">
+                <div class="modal__overlay">
+
+                </div>
+                <div class="modal__body"> -->
+                    <!-- Register form -->
+                     <!-- <div class="auth-form">
+                        <div class="auth-form__container">
+                            <div class="auth-form__header">
+                                <h3 class="auth-form__heading">ユーザー登録</h3>
+                                <span class="auth-form__switch-btn">ログイン</span>
+                            </div>
+
+                            <div class="auth-form__form">
+                                <div class="auth-form__group">
+                                    <input type="text" class="auth-form__input" placeholder="メールアドレス">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="パスワード">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="パスワード再入力">
+                                </div>
+                            </div>
+
+                            <div class="auth-form__aside">
+                                <p class="auth-form__policy-text">
+                                    登録することで、あなたは花果山執行部の
+                                    <a href="" class="auth-form__text-link">利用規約</a> および
+                                    <a href="" class="auth-form__text-link">プライバシーポリシー</a>
+                                    に同意したものとみなされます。
+                                </p>
+                            </div>
+
+                            <div class="auth-form__controls">
+                                <button class="btn btn--normal auth-form__controls-back">戻る</button>
+                                <button class="btn btn--primary">登録</button>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__socials">
+                            <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                                <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                                <span class="auth-form__socials-tittle">
+                                    Facebookでログイン
+                                </span>
+                            </a>
+
+                            <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                                <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                                <span class="auth-form__socials-tittle">
+                                    Googleで連携
+                                </span>
+                            </a>
+                        </div>
+                    </div> -->
+
+                    <!-- Login form -->
+                    <!-- <div class="auth-form">
+                        <div class="auth-form__container">
+                            <div class="auth-form__header">
+                                <h3 class="auth-form__heading">ログイン</h3>
+                                <span class="auth-form__switch-btn">ユーザー登録</span>
+                            </div>
+
+                            <div class="auth-form__form">
+                                <div class="auth-form__group">
+                                    <input type="text" class="auth-form__input" placeholder="メールのアドレス">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="text" class="auth-form__input" placeholder="パスワード">
+                                </div>
+                            </div>
+
+                            <div class="auth-form__aside">
+                                <div class="auth-form__help">
+                                    <a href="" class="auth-form__help-link auth-form__help-forgot">パスワードを忘れた方はこちら</a>
+                                    <span class="auth-form__help-separate"></span>
+                                    <a href="" class="auth-form__help-link">ヘルプ</a>
+                                </div>
+                            </div>
+
+                            <div class="auth-form__controls">
+                                <button class="btn btn--normal auth-form__controls-back">戻る</button>
+                                <button class="btn btn--primary">ログイン</button>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__socials">
+                            <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                                <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                                <span class="auth-form__socials-tittle">
+                                    Facebookでログイン
+                                </span>
+                            </a>
+                            <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                                <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                                <span class="auth-form__socials-tittle">
+                                    Googleでログイン
+                                </span>
+                            </a>
+                        </div>
+                    </div>  -->
                 </div>
             </div>
         </header>
@@ -201,3 +364,5 @@
     </div>    
 </body>
 </html>
+
+<!-- Đổi tiền Việt sang tiền Nhật thì chia 2.Làm tròn lên -->

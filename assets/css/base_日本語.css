@@ -95,7 +95,7 @@ html {
 
 /* Button style vì dùng chung nhiều nên viết lên file base*/
 .btn {
-    min-width: 1px;
+    min-width: 142px;
     height: 36px;
     text-decoration: none;
     border: none;
