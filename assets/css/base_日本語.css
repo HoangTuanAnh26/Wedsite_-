@@ -182,10 +182,10 @@ html {
 }
 
 .select-input__list {
-    position: relative;
-    left: 0;
+    position: absolute;
+    left: 0px;
     right: 0;
-    top: 52px;
+    top: 28px;
     border-radius: 2px;
     background-color: var(--white-color);
     padding: 8px 16px;
@@ -201,7 +201,6 @@ html {
     top: -7px;
     width: 100%;
     height: 7px;
-    background-color: red;
 }
 
 .select-input__link {
@@ -214,6 +213,40 @@ html {
 
 .select-input__link:hover {
     color: var(--primary-color);
+}
+
+/* pagination */
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.pagination-item {
+    margin: 0 12px;
+}
+
+.pagination-item--active .pagination-item__link {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.pagination-item--active .pagination-item__link:hover {
+    background-color: #fbd25b;
+}
+
+.pagination-item__link {
+    --height: 30px;
+    display: block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #939393;
+    min-width: 40px;
+    height: var(--height);
+    line-height: var(--height);
+    text-align: center;
+    border-radius: 2px;
 }
 
 /* Khi chỉ vào 値段, icon bị lệch, wed tieng viet chieu dai cua cha va con bang nhau */
